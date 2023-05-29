@@ -1,0 +1,164 @@
+.modals-center, .modals-content {
+	display: block; 
+	position: fixed;
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	width: 50%;
+	height: auto;
+	z-index: 1050;
+}
+
+.icon-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fa-check {
+	color: #0eb582;
+	font-size: 3rem;
+    border: 1px solid #0eb582;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-question {
+	color: #0eb582;
+	font-size: 3rem;
+    border: 1px solid #0eb582;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.icon-container .fa-info {
+	color: #fe4848;
+	font-size: 3rem;
+    border: 1px solid #fe4848;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.modals-message {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.modals-btn-left {
+	display: block;
+    color: black;
+    font-size: 1.2rem;
+    border: 1px solid #0eb582;
+    padding: 5px 10px;
+	text-align: center;
+}
+
+.modals-btn-right {
+	display: block;
+    color: black;
+    font-size: 1.2rem;
+    border: 1px solid #0eb582;
+    padding: 5px 10px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.modals-btn-left:hover {
+	background-color: #0eb582;
+	color: white;
+}
+
+.modals-btn-right:hover {
+	background-color: #0eb582;
+	color: white;
+}
+
+/* */
+
+.btn-outline-success {
+	border: 1px solid #0eb582;
+	color: #0eb582;
+}
+
+.btn-outline-success:hover {
+	background-color: #0eb582;
+}
+
+/* user dashboard */
+.my-courses-dash, .my-courses-task {
+	cursor: pointer;
+}
+
+.my-courses-dash:hover {
+	background-color: #0eb582;
+}
+
+.submission-completed {
+	color: #0eb582;
+}
+
+.submission-uncompleted {
+	color: #fe4848;
+}
+
+.my-courses-task:hover {
+	background-color: #ebebeb;
+}
+
+
+/* user tasks */
+.my-task {
+	cursor: pointer;
+}
+
+/* course page details dash */
+.course-image {
+	max-width: 100%;
+    height: auto;
+    width: 100%;
+	vertical-align: middle;
+    border-style: none;
+}
+
+/* course learning content */
+.course-content-nav {
+	position: sticky;
+	top: 60px;
+	padding: 10px;
+}
+
+.course-content-nav h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.course-content-nav a {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: inherit;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.course-content-nav ul li {
+	font-size: 1.2rem;
+	list-style-type: circle;
+}
+
+.course-tasks {
+	padding-right: 10px;
+	border-right: 1px solid #0005;
+}
+
+.course-tasks h3 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.course-tasks p {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: inherit;
+}
