@@ -25,4 +25,4 @@ Proyek ini adalah sistem pendidikan online yang dibuat menggunakan CodeIgniter d
 
 3. **Instalasi CodeIgniter**
 
-   - Pastikan CodeIgniter yang digunakan adalah versi yang kompatibel dengan PHP 7.x. Anda bisa memeriksa versi CodeIgniter yang digunakan di folder `system`.
+   - Pastikan CodeIgniter yang digunakan adalah versi yang kompatibel dengan PHP 7.x. Versi CodeIgniter yang digunakan yaitu Versi 3.1.13.
